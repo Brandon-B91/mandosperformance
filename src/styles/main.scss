@@ -1,0 +1,89 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+body {
+    background: black;
+}
+
+.full-page {
+    min-height: 90vh;
+    color: #fafafa
+}
+
+.why-section {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.services h2 {
+    text-align: center;
+}
+
+.services-wrapper {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
+    padding-top: 20px;
+    max-width: 1000px;
+}
+
+.services-wrapper .img {
+    width: 40%;
+    align-self: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.services-wrapper p {
+    display: block;
+    align-self: center;
+}
+
+.fas {
+    color: white;
+}
+
+
+
+.footer {
+    color: #fafafa;
+    text-align: center;
+    min-height: 200px;
+}
+
+.contact-us {
+    text-align: center;
+
+}
+
+.contact-us h2 {
+    font-size: 2em;
+}
+
+.contact-us li {
+    display: inline;
+}
+
+.icon {
+    font-size: 2em;
+    cursor: pointer;
+    display: inline;
+    margin: 25px 20px 0 0;
+    color: white;
+}
+
+.icon:hover {
+    transform: translatey(-5px);
+    color: gray;
+}
+
+.contact-us h3 {
+    display: inline;
+    margin: 5px 15px;
+}
+
+.fa-location-arrow:hover {
+    cursor: pointer;
+}
