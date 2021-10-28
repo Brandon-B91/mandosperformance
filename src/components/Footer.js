@@ -27,15 +27,15 @@ const Footer = () => {
           Connect with us on Social media for the latest specials and info on
           what we are doing!
         </p>
-        <div class="contact-us-icons ">
-          <ul class="contact-icons ">
-            <ul class="phone-number ">
-              <li class="contact-1 ">
+        <div class="contact-us-icons">
+          <ul class="contact-icons">
+            <ul class="phone-number">
+              <li class="contact-1">
                 Call Jose @<a href="tel:(505)730-3303">(505) 730-3303</a>
               </li>{" "}
               /
               {" "}
-              <li class="contact-2 ">
+              <li class="contact-2">
                 Call Orlando @<a href="tel:(505)659-6987">(505) 659-6987</a>
               </li>
             </ul>

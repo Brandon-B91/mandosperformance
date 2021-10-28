@@ -6,6 +6,7 @@ body {
 }
 
 .full-page {
+    margin-top: 60px;
     min-height: 90vh;
     color: #fafafa
 }
@@ -27,6 +28,7 @@ body {
     grid-template-rows: repeat(4, auto);
     padding-top: 20px;
     max-width: 1000px;
+    overflow-y: hidden;
 }
 
 .services-wrapper .img {
@@ -86,4 +88,20 @@ body {
 
 .fa-location-arrow:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+
+    .fa-phone-alt {
+        padding-top: 0;
+        font-size: 24px;
+    }
+
+    .full-page {
+        margin-top: 90px;
+    }
+
+    .phone-number {
+        display: none;
+    }
 }
